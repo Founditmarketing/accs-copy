@@ -281,7 +281,7 @@
 /* ── Mobile Floating Call Button ───────────────────────────────────────── */
 .fab-call {
   position: fixed;
-  bottom: calc(var(--tab-bar-height) + env(safe-area-inset-bottom, 0px) + 16px);
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 24px);
   right: 16px;
   width: 56px;
   height: 56px;

@@ -306,16 +306,8 @@
             header.classList.remove('header-hidden');
           }
 
-          // Auto-hide on scroll-down, reveal on scroll-up (mobile only)
-          if (isMobile && currentY > 200) {
-            if (currentY > lastScrollY + 8) {
-              header.classList.add('header-hidden');
-              if (fab) fab.classList.add('fab-hidden');
-            } else if (currentY < lastScrollY - 8) {
-              header.classList.remove('header-hidden');
-              if (fab) fab.classList.remove('fab-hidden');
-            }
-          }
+          // Auto-hide on scroll disabled
+          // The header and FAB will remain sticky and visible.
 
           lastScrollY = currentY;
           ticking = false;
