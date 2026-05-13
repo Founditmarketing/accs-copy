@@ -331,6 +331,9 @@ html {
   position: absolute;
   inset: 0;
   z-index: 0;
+  background-image: url('../assets/images/hero-care.png');
+  background-size: cover;
+  background-position: center 30%;
 }
 
 .hero-bg img,
