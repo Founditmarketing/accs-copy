@@ -449,6 +449,11 @@ html {
 }
 
 @media (max-width: 767px) {
+  .hero-bg {
+    transform: scale(1.8);
+    transform-origin: center;
+  }
+  
   .hero {
     align-items: flex-end;
   }
